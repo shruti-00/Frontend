@@ -1,0 +1,36 @@
+.h1
+{
+    color: blueviolet;
+    /* font-size: 17px; */
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.h2
+{
+    color:chocolate;
+    /* font-size: 17px; */
+    font-family:'Times New Roman', Times, serif;
+}
+body
+{
+    border: solid aquamarine 10px;
+    /* color: aquamarine; */
+    background-color: bisque;  
+}
+/* Grouping selector 
+h1,label,input
+{
+    background-color: deeppink;
+}*/
+/* Universal selector */
+
+
+p::first-line
+{
+    color: rgb(248, 63, 63);
+}
+h1:horizontal
+{
+    color: orchid;
+}
